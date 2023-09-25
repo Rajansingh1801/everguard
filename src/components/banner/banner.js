@@ -6,6 +6,7 @@ import veg from "../../assets/images/banner/veg.png";
 import dried_rosehip from "../../assets/images/banner/dried-rosehip.png";
 import spice from "../../assets/images/banner/spice.png";
 import sand from "../../assets/images/banner/sandclock.json";
+import "animate.css";
 
 const Banner = () => {
   useEffect(() => {
@@ -39,7 +40,7 @@ const Banner = () => {
               autoplay
               loop
               src={sand}
-              speed={0}
+              speed={0.4}
               style={{ height: "500px", width: "500px" }}
             >
               autoplay={false}
