@@ -40,7 +40,7 @@ const Banner = () => {
               autoplay
               loop
               src={sand}
-              speed={0.2}
+              speed={0.3}
               // style={{ height: "500px", width: "500px", overflow: "visible" }}
             >
               autoplay={false}
