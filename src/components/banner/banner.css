@@ -12,6 +12,8 @@
 .banner .sandclock {
   width: 500px;
   height: 500px;
+  border: 1px solid black;
+  overflow: visible;
 }
 .banner .topimg {
   margin-top: 85px;

@@ -35,13 +35,13 @@ const Banner = () => {
             <p>Better Sleep - Boundless Energy - Mental Clarity</p>
             <button>Get Started</button>
           </div>
-          <div>
+          <div className="sandclock">
             <Player
               autoplay
               loop
               src={sand}
-              speed={0.4}
-              style={{ height: "500px", width: "500px" }}
+              speed={0.2}
+              // style={{ height: "500px", width: "500px", overflow: "visible" }}
             >
               autoplay={false}
               loop={true}
