@@ -1,0 +1,18 @@
+.about {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/about/aboutbg.png");
+}
+.about .border {
+  width: 634px;
+  height: 426px;
+  border-radius: 210px;
+  border: 1px dashed #d9d9d9;
+}
+.about .sleepgirl {
+  width: 278px;
+  height: 294.86px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
