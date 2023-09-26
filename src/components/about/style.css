@@ -1,18 +1,68 @@
-.about {
-  width: 100vw;
+.about-container {
   height: 100vh;
   background-image: url("../../assets/images/about/aboutbg.png");
+  overflow: hidden;
 }
-.about .border {
+@media (max-height: 100vh) {
+  .about-container {
+    position: sticky;
+    top: 0%;
+    z-index: -1;
+  }
+}
+.about-container .border {
   width: 634px;
   height: 426px;
   border-radius: 210px;
   border: 1px dashed #d9d9d9;
 }
-.about .sleepgirl {
-  width: 278px;
-  height: 294.86px;
+.about-container .sleepgirl {
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
-  -o-object-fit: cover;
-     object-fit: cover;
+}
+
+.new1 {
+  height: 700vh;
+}
+
+.new7 {
+  height: 100vh;
+  padding: 0px 78px;
+}
+.new7 .heading {
+  position: sticky;
+  top: 30%;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 98.712px;
+}
+
+.new8 {
+  height: 100vh;
+  padding: 0px 78px;
+}
+.new8 .about-details {
+  position: sticky;
+  top: 50%;
+}
+.new8 .about-details p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+}
+.new8 .about-details h5 {
+  font-size: 22px;
+}
+
+.new11 {
+  height: 100vh;
+  background-color: rgb(16, 16, 15);
+}
+
+.new9 {
+  height: 600vh;
 }/*# sourceMappingURL=style.css.map */

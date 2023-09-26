@@ -36,13 +36,7 @@ const Banner = () => {
             <button>Get Started</button>
           </div>
           <div className="sandclock">
-            <Player
-              autoplay
-              loop
-              src={sand}
-              speed={0.3}
-              // style={{ height: "500px", width: "500px", overflow: "visible" }}
-            >
+            <Player autoplay loop src={sand} speed={0.3}>
               autoplay={false}
               loop={true}
               controls={true}
