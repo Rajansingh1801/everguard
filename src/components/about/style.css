@@ -15,11 +15,21 @@
   height: 426px;
   border-radius: 210px;
   border: 1px dashed #d9d9d9;
+  position: absolute;
+  inset: 0;
+  margin: auto;
 }
 .about-container .sleepgirl {
+  background-image: url("../../assets/images/about/girlsleep.png");
   width: 200px;
   height: 200px;
   border-radius: 20px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position-x: center;
+  background-position-y: -180px;
 }
 
 .new1 {
@@ -64,5 +74,5 @@
 }
 
 .new9 {
-  height: 600vh;
+  height: 300vh;
 }/*# sourceMappingURL=style.css.map */
