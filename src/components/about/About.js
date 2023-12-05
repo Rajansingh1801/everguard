@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import sleepgirl from "../../assets/images/about/girlsleep.png";
-
+import "animate.css";
+import Fade from "react-reveal/Fade";
 const About = () => {
   const [scrollY, setScrollY] = useState(0);
 
@@ -56,34 +56,34 @@ const About = () => {
         </div>
         <div className="new1"></div>
 
-        <div className="new9">
-          <div className="new7">
-            <div className="heading z-50">
-              <h2 className="text-white">No Sleep</h2>
+        <div className="new7">
+          <div className="heading z-50">
+            <Fade bottom duration={1000}>
+              <h2 className="text-white wow animate__animated animate__backInUp">
+                No Sleep
+              </h2>
+            </Fade>
+            <Fade bottom duration={1500}>
               <h2 className="text-white">No Energy</h2>
-            </div>
+            </Fade>
           </div>
-          <div className="new8">
-            <div className="z-50 about-details">
-              <p className="text-white">
-                While other vitamin and shake options promise to fuel you up on
-                nutrients, only <br /> SIMPLIFI gets to the root of your
-                health...
-              </p>
-              <h5 className="text-white">Your sleep!</h5>
-              <p className="text-white">
-                Without a rejuvenating night's sleep, your body can't rebuild
-                and recharge. Our <br /> scientifically formulated AM and PM
-                takes give you round the clock nutrient support <br /> to aid
-                your body in a full night's sleep. Plus, it tastes great and
-                costs less than
-              </p>
-              <h5 className="text-white">$4 day.</h5>
-            </div>
+          <div className="z-50 about-details pt-5">
+            <p className="text-white pt-3">
+              While other vitamin and shake options promise to fuel you up on
+              nutrients, only <br /> SIMPLIFI gets to the root of your health...
+            </p>
+            <h5 className="text-white mb-3">Your sleep!</h5>
+            <p className="text-white pt-5">
+              Without a rejuvenating night's sleep, your body can't rebuild and
+              recharge. Our <br /> scientifically formulated AM and PM takes
+              give you round the clock nutrient support <br /> to aid your body
+              in a full night's sleep. Plus, it tastes great and costs less than
+            </p>
+            <h5 className="text-white">$4 day.</h5>
           </div>
         </div>
       </section>
-      <section className="new11"></section>
+      {/* <section className="new11"></section> */}
     </>
   );
 };

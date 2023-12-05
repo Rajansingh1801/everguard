@@ -1,14 +1,12 @@
+import { useState } from "react";
 import "./App.css";
-import About from "./components/about/About";
-import Banner from "./components/banner/banner";
-import Header from "./components/header/header";
+
+import Routepage from "./routes/route";
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      <About />
+      <Routepage />
     </>
   );
 }

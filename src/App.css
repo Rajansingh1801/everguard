@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   transition: 200ms;
+
+}
+body{
+font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -13,6 +17,39 @@ img {
 
 :root {
   --Montserrat_font: "Montserrat", sans-serif;
+  --pp-bold:"ppneuemontreal-bold";
+  --pp-italic:"ppneuemontreal-italic";
+  --pp-medium:"ppneuemontreal-medium";
+  --pp-semiboldi:"ppneuemontreal-semibolditalic"
+  --pp-thin:"ppneuemontreal-thin";
 }
 
-/* font-family: 'Montserrat', sans-serif; */
+
+@font-face {
+  font-family: ppneuemontreal-bold;
+  src: url("./assets/font/pp-neue-montreal-cufonfonts/ppneuemontreal-bold.otf");
+}
+
+@font-face {
+  font-family: ppneuemontreal-book;
+  src: url("./assets/font/pp-neue-montreal-cufonfonts/ppneuemontreal-book.otf");
+}
+@font-face {
+  font-family: ppneuemontreal-italic;
+  src: url("./assets/font/pp-neue-montreal-cufonfonts/ppneuemontreal-italic.otf");
+}
+
+@font-face {
+  font-family: ppneuemontreal-medium;
+  src: url("./assets/font/pp-neue-montreal-cufonfonts/ppneuemontreal-medium.otf");
+}
+@font-face {
+  font-family: ppneuemontreal-semibolditalic;
+  src: url("./assets/font/pp-neue-montreal-cufonfonts/ppneuemontreal-semibolditalic.otf");
+}
+@font-face {
+  font-family: ppneuemontreal-thin;
+  src: url("./assets/font/pp-neue-montreal-cufonfonts/ppneuemontreal-thin.otf");
+}
+
+

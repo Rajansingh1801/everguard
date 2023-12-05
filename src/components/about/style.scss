@@ -25,14 +25,14 @@
     // z-index: 5;
     border-radius: 20px;
     object-position: center;
+    background-repeat: no-repeat;
     object-fit: cover;
     background-position-x: center;
-    background-position-y: -180px;
+    background-position-y: top;
   }
 }
 .new1 {
   height: 700vh;
-  // background-color: yellow;
 }
 
 .new7 {
@@ -40,26 +40,20 @@
   padding: 0px 78px;
   .heading {
     position: sticky;
-    top: 30%;
     font-size: 90px;
     font-style: normal;
     font-weight: 500;
     line-height: 98.712px;
   }
-}
-.new8 {
-  height: 100vh;
-  padding: 0px 78px;
   .about-details {
     position: sticky;
-    top: 50%;
 
     p {
       color: #fff;
-      // font-family: PP Neue Montreal;
+      font-family: "ppneuemontreal-thin";
       font-size: 16px;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 200;
       line-height: 35px;
     }
     h5 {
@@ -67,11 +61,8 @@
     }
   }
 }
+
 .new11 {
   height: 100vh;
   background-color: rgb(16, 16, 15);
-}
-
-.new9 {
-  height: 300vh;
 }

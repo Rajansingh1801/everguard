@@ -4,13 +4,13 @@ import logo from "../../assets/logo/logo.png";
 import location from "../../assets/logo/location.png";
 import usericon from "../../assets/logo/usericon.png";
 
-const Header = () => {
+const Header = ({ toggleSidebar }) => {
   return (
     <>
       <header>
         <div className="flex items-center">
           <div className="me-8 pb-5">
-            <img src={logo} alt="img" />
+            <img src={logo} alt="img" onClick={toggleSidebar} />
           </div>
           <h3 className="text-white">
             Ever<em>guard</em>

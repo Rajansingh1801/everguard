@@ -26,10 +26,11 @@
   border-radius: 20px;
   -o-object-position: center;
      object-position: center;
+  background-repeat: no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
   background-position-x: center;
-  background-position-y: -180px;
+  background-position-y: top;
 }
 
 .new1 {
@@ -42,37 +43,27 @@
 }
 .new7 .heading {
   position: sticky;
-  top: 30%;
   font-size: 90px;
   font-style: normal;
   font-weight: 500;
   line-height: 98.712px;
 }
-
-.new8 {
-  height: 100vh;
-  padding: 0px 78px;
-}
-.new8 .about-details {
+.new7 .about-details {
   position: sticky;
-  top: 50%;
 }
-.new8 .about-details p {
+.new7 .about-details p {
   color: #fff;
+  font-family: "ppneuemontreal-thin";
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 35px;
 }
-.new8 .about-details h5 {
+.new7 .about-details h5 {
   font-size: 22px;
 }
 
 .new11 {
   height: 100vh;
   background-color: rgb(16, 16, 15);
-}
-
-.new9 {
-  height: 300vh;
 }/*# sourceMappingURL=style.css.map */
